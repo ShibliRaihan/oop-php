@@ -1,11 +1,21 @@
-<?php 
-class Student {
+<?php
+class Student
+{
     public $name;
-    function __construct($text)
+    function students($text)
     {
-        $this->name = $text ;
-        echo $this->name;
+        echo $this->name = $text;
     }
 }
 
-$stu = new Student ("Jon");
+class Teacher extends Student
+{
+    function teachers()
+    {
+        $this->name;
+    }
+}
+
+$show_name = new Teacher();
+$show_name->students("h");
+
