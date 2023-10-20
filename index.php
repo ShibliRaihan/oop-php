@@ -2,7 +2,7 @@
 include "./school.php";
 include "./libery.php";
 
-require "src/app/Main.php";
+require "./vendor/autoload.php";
 
 use App\Main;
 use School\School as school;
