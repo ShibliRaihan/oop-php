@@ -1,0 +1,15 @@
+{
+    "name": "shibl/oop",
+    "autoload": {
+        "psr-4": {
+            "Shibl\\Oop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ShibliRaihan",
+            "email": "shibli.raihan.bangli@gmail.com"
+        }
+    ],
+    "require": {}
+}
