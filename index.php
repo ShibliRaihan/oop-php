@@ -1,3 +1,3 @@
 <?php 
 
-echo"Hi everybody!";
+echo"Hi not everybody!";
