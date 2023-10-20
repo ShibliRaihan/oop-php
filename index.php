@@ -2,6 +2,9 @@
 include "./school.php";
 include "./libery.php";
 
+require "src/app/Main.php";
+
+use App\Main;
 use School\School as school;
 use Library\Library as library;
 
@@ -52,3 +55,5 @@ $school->user();
 $library = new library();
 $library->user();
 
+$main = new Main;
+$main->disp();

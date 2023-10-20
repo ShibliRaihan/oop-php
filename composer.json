@@ -2,7 +2,8 @@
     "name": "shibl/oop",
     "autoload": {
         "psr-4": {
-            "Shibl\\Oop\\": "src/"
+            "Oop\\": "src/",
+            "App\\" : "src/app"
         }
     },
     "authors": [

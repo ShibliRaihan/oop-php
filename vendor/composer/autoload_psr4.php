@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Shibl\\Oop\\' => array($baseDir . '/src'),
+    'Oop\\' => array($baseDir . '/src'),
+    'App\\' => array($baseDir . '/src/app'),
 );
